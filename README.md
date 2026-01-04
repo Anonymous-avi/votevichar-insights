@@ -1,73 +1,98 @@
-# Welcome to your Lovable project
+# 🗳️ VoteVichar  
+### Thoughtful, data-driven insights for election synchronization
 
-## Project info
+---
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 📌 Overview
 
-## How can I edit this code?
+**VoteVichar** is an interactive, data-driven simulation platform designed to help policymakers, researchers, and stakeholders explore and compare different **election synchronization scenarios (One Nation One Election)** in a neutral, transparent, and visual manner.
 
-There are several ways of editing your application.
+Instead of relying on static reports or isolated studies, VoteVichar enables users to configure scenarios, simulate outcomes, and visually compare impacts across **financial, administrative, and governance dimensions** through an intuitive web interface.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 🎯 Problem Statement
 
-Changes made via Lovable will be committed automatically to this repo.
+India conducts elections for Parliament, State Assemblies, and local bodies at different times, resulting in overlapping electoral cycles, high administrative costs, and frequent governance disruptions.  
 
-**Use your preferred IDE**
+Currently, policymakers lack an **interactive, scenario-based tool** that allows them to objectively evaluate the feasibility, trade-offs, and implications of election synchronization models in a single platform.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 💡 Solution
 
-Follow these steps:
+VoteVichar addresses this gap by providing a **scenario-based simulation platform** that allows users to:
+- Configure different election synchronization models
+- Adjust key assumptions and parameters
+- Run transparent, rule-based simulations
+- Visualize and compare outcomes across scenarios
+- Derive clear, evidence-driven insights to support decision-making
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## ✨ Key Features / USP
 
-# Step 3: Install the necessary dependencies.
-npm i
+- **Interactive Scenario Comparison**  
+  Compare multiple election synchronization models side-by-side instead of relying on static reports.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+- **Visual Dashboards**  
+  Present outcomes through charts, bar graphs, and summary indicators for quick understanding.
 
-**Edit a file directly in GitHub**
+- **Configurable Policy Parameters**  
+  Adjust election cycles, number of states, manpower, and cost assumptions dynamically.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- **Neutral Decision Support**  
+  Focuses on transparency, feasibility, and trade-offs without political bias or recommendations.
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🧭 System Flow
 
-## What technologies are used for this project?
+1. User accesses the platform (Government User / Researcher / Guest)  
+2. Scenario parameters are configured through the setup interface  
+3. Inputs are validated and passed to the simulation layer  
+4. Rule-based simulation logic processes the scenario  
+5. Results are visualized on the analysis dashboard  
+6. Scenarios can be compared, refined, or reviewed  
+7. Insights and summaries support informed decision-making  
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🏗️ System Architecture & Data Flow
 
-## How can I deploy this project?
+- **Frontend UI Layer:** Handles user interaction and page-based navigation  
+- **Navigation Controller:** Manages flow between different stages of the simulation  
+- **Input Configuration Module:** Collects and validates scenario parameters  
+- **Rule-Based Simulation Engine:** Computes impacts using transparent assumptions  
+- **State Management Layer:** Maintains inputs, results, and previous simulations  
+- **Visualization Module:** Converts outputs into charts and dashboards  
+- **Insights Module:** Summarizes findings and highlights trade-offs  
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 🛠️ Technology Stack
 
-Yes, you can!
+- **React.js** – Component-based frontend framework for scalable UI development  
+- **Tailwind CSS** – Utility-first styling for responsive and consistent design  
+- **JavaScript** – Client-side logic, interactivity, and dynamic updates  
+- **React Router** – Page-based navigation and user flow management  
+- **Chart.js / Recharts** – Data visualization through charts and dashboards  
+- **GitHub** – Version control, collaboration, and project management  
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 🚀 Getting Started (Local Setup)
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/votevichar.git
+
+# Navigate to the project directory
+cd votevichar
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
+
